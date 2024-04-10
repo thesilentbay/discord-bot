@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  node-app:
+    build: .
+    image: discord-bot:latest
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
