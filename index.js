@@ -1,7 +1,6 @@
 const fs = require("fs");
 const ffmpeg = require("fluent-ffmpeg");
-const ytdl = require("ytdl-core");
-
+const ytdl = require("@distube/ytdl-core");
 const { startsWith, getURL, getVideoID } = require("./helpers.js");
 // TypeScript: import ytdl from 'ytdl-core'; with --esModuleInterop
 // TypeScript: import * as ytdl from 'ytdl-core'; with --allowSyntheticDefaultImports
